@@ -1,0 +1,21 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix tes: <https://w3id.org/testOfficeStuff/>.
+
+tes:
+    a skos:ConceptScheme;
+    dct:description "vocabulary for office stuff"@en;
+    dct:title "Office Stuff"@en;
+    skos:hasTopConcept tes:14151, tes:25caf.
+tes:14151
+    a skos:Concept;
+    skos:narrower tes:2fb17;
+    skos:prefLabel "Computer"@en;
+    skos:topConceptOf tes: .
+tes:25caf
+a skos:Concept; skos:prefLabel "Chair"@en, "Stuhl"@de; skos:topConceptOf tes: .
+tes:2fb17
+    a skos:Concept;
+    skos:broader tes:14151;
+    skos:inScheme tes:;
+    skos:prefLabel "GPU"@en.
