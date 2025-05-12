@@ -1,38 +1,28 @@
 {
-  "id": "https://example.org/colour/violet",
+  "id": "https://w3id.org/testOfficeStuff/25caf",
   "type": "Concept",
   "prefLabel": {
-    "en": "violet",
-    "de": "Violett"
-  },
-  "altLabel": {
-    "en": [
-      "purple"
-    ],
-    "de": [
-      "Lila"
-    ]
+    "en": "Chair",
+    "de": "Stuhl"
   },
   "inScheme": [
     {
-      "id": "https://example.org/colour/",
+      "id": "https://w3id.org/testOfficeStuff/",
       "title": {
-        "en": "Genera Vocabulary",
-        "de": "Farbvokabular"
+        "en": "Office Stuff"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://example.org/colour/"
+      "id": "https://w3id.org/testOfficeStuff/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://example.org/colour/",
+      "id": "https://w3id.org/testOfficeStuff/",
       "title": {
-        "en": "Genera Vocabulary",
-        "de": "Farbvokabular"
+        "en": "Office Stuff"
       }
     }
   ],

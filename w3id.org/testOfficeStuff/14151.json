@@ -1,38 +1,35 @@
 {
-  "id": "https://example.org/colour/violet",
+  "id": "https://w3id.org/testOfficeStuff/14151",
   "type": "Concept",
   "prefLabel": {
-    "en": "violet",
-    "de": "Violett"
+    "en": "Computer"
   },
-  "altLabel": {
-    "en": [
-      "purple"
-    ],
-    "de": [
-      "Lila"
-    ]
-  },
+  "narrower": [
+    {
+      "id": "https://w3id.org/testOfficeStuff/2fb17",
+      "prefLabel": {
+        "en": "GPU"
+      }
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://example.org/colour/",
+      "id": "https://w3id.org/testOfficeStuff/",
       "title": {
-        "en": "Genera Vocabulary",
-        "de": "Farbvokabular"
+        "en": "Office Stuff"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://example.org/colour/"
+      "id": "https://w3id.org/testOfficeStuff/"
     }
   ],
   "topConceptOf": [
     {
-      "id": "https://example.org/colour/",
+      "id": "https://w3id.org/testOfficeStuff/",
       "title": {
-        "en": "Genera Vocabulary",
-        "de": "Farbvokabular"
+        "en": "Office Stuff"
       }
     }
   ],
